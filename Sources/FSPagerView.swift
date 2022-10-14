@@ -471,7 +471,7 @@ open class FSPagerView: UIView,UICollectionViewDataSource,UICollectionViewDelega
         guard cell.isKind(of: FSPagerViewCell.self) else {
             fatalError("Cell class must be subclass of FSPagerViewCell")
         }
-        return cell as! FSPagerViewCell
+        return cell
     }
     
     /// Reloads all of the data for the collection view.
